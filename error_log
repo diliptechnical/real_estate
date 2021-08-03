@@ -1,0 +1,78 @@
+[30-Oct-2020 04:00:48 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[30-Oct-2020 04:10:46 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[30-Oct-2020 04:35:54 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[30-Oct-2020 04:36:58 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[30-Oct-2020 20:41:26 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[30-Oct-2020 20:44:37 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[31-Oct-2020 05:50:16 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[31-Oct-2020 05:52:11 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 18:54:09 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 18:54:27 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:05:02 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:05:03 UTC] PHP Warning:  Uncaught ErrorException: require(/home/fnzhqoqa/public_html/productApp/vendor/composer/../../bootstrap/helpers.php): failed to open stream: No such file or directory in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/f...', '/home/fnzhqoqa/...', 66, Array)
+#1 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): require()
+#2 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(56): composerRequire3ff5c6039b7ca54633115a097392b98a('c23e8f96f2281c0...', '/home/fnzhqoqa/...')
+#3 /home/fnzhqoqa/public_html/productApp/vendor/autoload.php(7): ComposerAutoloaderInit3ff5c6039b7ca54633115a097392b98a::getLoader()
+#4 /home/fnzhqoqa/public_html/productApp/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home/fnzhqoqa/...')
+#5 phar:///opt/cpanel/composer/bin/composer/src in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:05:03 UTC] PHP Fatal error:  composerRequire3ff5c6039b7ca54633115a097392b98a(): Failed opening required '/home/fnzhqoqa/public_html/productApp/vendor/composer/../../bootstrap/helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:05:43 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:05:44 UTC] PHP Warning:  Uncaught ErrorException: require(/bootstrap/helpers.php): failed to open stream: No such file or directory in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/bootst...', '/home/fnzhqoqa/...', 66, Array)
+#1 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): require()
+#2 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(56): composerRequire3ff5c6039b7ca54633115a097392b98a('a69808fb6a41040...', '/bootstrap/help...')
+#3 /home/fnzhqoqa/public_html/productApp/vendor/autoload.php(7): ComposerAutoloaderInit3ff5c6039b7ca54633115a097392b98a::getLoader()
+#4 /home/fnzhqoqa/public_html/productApp/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home/fnzhqoqa/...')
+#5 phar:///opt/cpanel/composer/bin/composer/src/Composer/EventDispatcher/EventDispatcher.php(297): Illumin in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:05:44 UTC] PHP Fatal error:  composerRequire3ff5c6039b7ca54633115a097392b98a(): Failed opening required '/bootstrap/helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:07:06 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:07:07 UTC] PHP Warning:  Uncaught ErrorException: require(/home/fnzhqoqa/public_html/productApp/vendor/composer/../../../bootstrap/helpers.php): failed to open stream: No such file or directory in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/f...', '/home/fnzhqoqa/...', 66, Array)
+#1 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): require()
+#2 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(56): composerRequire3ff5c6039b7ca54633115a097392b98a('a647d1e638c4029...', '/home/fnzhqoqa/...')
+#3 /home/fnzhqoqa/public_html/productApp/vendor/autoload.php(7): ComposerAutoloaderInit3ff5c6039b7ca54633115a097392b98a::getLoader()
+#4 /home/fnzhqoqa/public_html/productApp/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home/fnzhqoqa/...')
+#5 phar:///opt/cpanel/composer/bin/composer/ in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:07:07 UTC] PHP Fatal error:  composerRequire3ff5c6039b7ca54633115a097392b98a(): Failed opening required '/home/fnzhqoqa/public_html/productApp/vendor/composer/../../../bootstrap/helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:10:07 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:10:08 UTC] PHP Warning:  Uncaught ErrorException: require(/home/fnzhqoqa/public_html/productApp/vendor/composer/../../../bootstrap/helpers.php): failed to open stream: No such file or directory in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/f...', '/home/fnzhqoqa/...', 66, Array)
+#1 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): require()
+#2 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(56): composerRequire3ff5c6039b7ca54633115a097392b98a('a647d1e638c4029...', '/home/fnzhqoqa/...')
+#3 /home/fnzhqoqa/public_html/productApp/vendor/autoload.php(7): ComposerAutoloaderInit3ff5c6039b7ca54633115a097392b98a::getLoader()
+#4 /home/fnzhqoqa/public_html/productApp/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home/fnzhqoqa/...')
+#5 phar:///opt/cpanel/composer/bin/composer/ in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:10:08 UTC] PHP Fatal error:  composerRequire3ff5c6039b7ca54633115a097392b98a(): Failed opening required '/home/fnzhqoqa/public_html/productApp/vendor/composer/../../../bootstrap/helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:10:16 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:10:17 UTC] PHP Warning:  Uncaught ErrorException: require(/home/fnzhqoqa/public_html/productApp/vendor/composer/../../../bootstrap/helpers.php): failed to open stream: No such file or directory in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/f...', '/home/fnzhqoqa/...', 66, Array)
+#1 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): require()
+#2 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(56): composerRequire3ff5c6039b7ca54633115a097392b98a('a647d1e638c4029...', '/home/fnzhqoqa/...')
+#3 /home/fnzhqoqa/public_html/productApp/vendor/autoload.php(7): ComposerAutoloaderInit3ff5c6039b7ca54633115a097392b98a::getLoader()
+#4 /home/fnzhqoqa/public_html/productApp/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home/fnzhqoqa/...')
+#5 phar:///opt/cpanel/composer/bin/composer/ in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:10:17 UTC] PHP Fatal error:  composerRequire3ff5c6039b7ca54633115a097392b98a(): Failed opening required '/home/fnzhqoqa/public_html/productApp/vendor/composer/../../../bootstrap/helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:10:56 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:10:57 UTC] PHP Warning:  Uncaught ErrorException: require(/home/fnzhqoqa/public_html/productApp/vendor/composer/../../app/helpers.php): failed to open stream: No such file or directory in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/f...', '/home/fnzhqoqa/...', 66, Array)
+#1 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(66): require()
+#2 /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php(56): composerRequire3ff5c6039b7ca54633115a097392b98a('b4e3f29b106af37...', '/home/fnzhqoqa/...')
+#3 /home/fnzhqoqa/public_html/productApp/vendor/autoload.php(7): ComposerAutoloaderInit3ff5c6039b7ca54633115a097392b98a::getLoader()
+#4 /home/fnzhqoqa/public_html/productApp/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home/fnzhqoqa/...')
+#5 phar:///opt/cpanel/composer/bin/composer/src/Compo in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:10:57 UTC] PHP Fatal error:  composerRequire3ff5c6039b7ca54633115a097392b98a(): Failed opening required '/home/fnzhqoqa/public_html/productApp/vendor/composer/../../app/helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fnzhqoqa/public_html/productApp/vendor/composer/autoload_real.php on line 66
+[04-Nov-2020 19:13:08 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:13:50 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[04-Nov-2020 19:13:52 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[12-Nov-2020 18:37:51 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[14-Nov-2020 08:07:40 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[14-Nov-2020 08:17:57 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[14-Nov-2020 08:20:41 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[24-Dec-2020 08:10:08 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0

@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\RealEstate\resources\views/sidebar/dashboard.blade.php ENDPATH**/ ?>

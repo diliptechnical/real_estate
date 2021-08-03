@@ -1,0 +1,38 @@
+.vue-tel-input {
+    border-radius: 5rem !important;
+    background-color: #dcebfd;
+    border: 2px solid #dcebfd !important;
+    padding: 0.5rem 1.5rem 0.5rem 5px;
+}
+.hide{
+    display: none;
+}
+.card {
+    border-radius: 1.25rem;
+}
+.logo-wrapper img {
+    height: 32px;
+}
+.card-body svg {
+    width: 80px;
+    height: 80px;
+}
+.vue-tel-input input {
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: #dcebfd;
+}
+span.vti__selection {
+    display: flex;
+}
+.register-form .form-group.unset {
+    position: unset;
+}
+.vti__dropdown-list{
+    width: 300px !important;
+    .vti__dropdown-item{
+        span{
+            display: inline;
+        }
+    }
+}

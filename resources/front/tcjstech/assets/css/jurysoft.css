@@ -1,0 +1,560 @@
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__wrap {
+    width: 900px;
+    height: 62px;
+    margin: 0 auto;
+    border-radius: 32px;
+    box-shadow: 0 3px 12px -9px rgb(0 0 0 / 40%);
+    border: 1px solid #909090;
+    background-color: #fff;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.mb-search__location:before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 10px;
+    width: 12px;
+    height: 14px;
+    /* background: url() no-repeat -46px -754px; */
+    z-index: 2;
+}
+.mb-search__location:before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 10px;
+    width: 12px;
+    height: 14px;
+    /* background: url(../images/mb-home-web/mb-home-sprite-web.svg) no-repeat -46px -754px; */
+    z-index: 2;
+}
+.mb-search__location__tag-wrap.forFlexView {
+    display: flex;
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__location__tag-wrap {
+    padding: 2px 0 12px 4px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__tag {
+    float: left;
+    position: relative;
+    margin: 0 0 5px 5px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__input {
+    width: calc(100% - 8px);
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #606060;
+    border: none;
+    outline: none;
+    padding: 0 0 0 8px;
+    font-family: Montserrat;
+    background: none;
+    margin-right: 16px;
+}
+user agent stylesheet
+input[type="text" i] {
+    padding: 1px 2px;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__tag {
+    float: left;
+    position: relative;
+    margin: 0 0 5px 5px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.mb-search__compact-view .mb-search__tag-t {
+    padding: 0 12px;
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__tag-t {
+    padding: 0 22px 0 12px;
+    line-height: 32px;
+    border-radius: 16px;
+    color: #303030;
+    cursor: default;
+    background: #fbe9e9;
+    font-size: 16px;
+    max-width: 146px;
+    text-transform: capitalize;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.mb-search__compact-view .mb-search__tag-close {
+    display: none;
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__tag-close {
+    position: absolute;
+    top: 6px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.mb-search__tag-close:before {
+    transform: rotate(
+-45deg
+);
+}
+.mb-search__tag-close:after, .mb-search__tag-close:before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 9px;
+    width: 12px;
+    height: 1px;
+    background-color: #000;
+    transform: rotate(
+45deg
+);
+}
+.mb-search__tag-close:after, .mb-search__tag-close:before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 9px;
+    width: 12px;
+    height: 1px;
+    background-color: #000;
+    transform: rotate(
+45deg
+);
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+.mb-search__location__error {
+    position: absolute;
+    left: 40px;
+    top: 52px;
+    z-index: 9;
+    background: #ffe8e6;
+    padding: 4px 9px;
+    border: 1px solid #c0392b;
+    display: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    color: #c0392b;
+    font-size: 14px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.mb-search__location__error:after, .mb-search__location__error:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #c0392b;
+}
+.mb-search__location__error:after {
+    top: -7px;
+    left: 21px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ffe8e6;
+}
+.mb-search__location__error:after, .mb-search__location__error:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #c0392b;
+}
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="hidden" i] {
+    display: none;
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+
+.mb-home, .mb-home * {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="hidden" i] {
+    display: none;
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.mb-home {
+    background-color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 88px!important;
+}
+body {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}

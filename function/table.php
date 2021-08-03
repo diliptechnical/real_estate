@@ -1,0 +1,71 @@
+<?php
+define("TEMP_FILES", TABLE_PREFIX . "temp_files");
+define("SETTINGS", TABLE_PREFIX . "settings");
+define("CMS", TABLE_PREFIX . "cms");
+define("NO_VISIT", TABLE_PREFIX . "no_visit");
+define("NOTIFICATION", TABLE_PREFIX . "notification");
+define("MAILMSG", TABLE_PREFIX . "mailmsg");
+define("UPDATE_INFO", TABLE_PREFIX . "update_info");
+define("ROLL", TABLE_PREFIX . "roll");
+define("MENUS", TABLE_PREFIX . "menus");
+define("PRIVILAGES", TABLE_PREFIX . "privilages");
+define("SITE_USER", TABLE_PREFIX . "user");
+define("MAIL_HISTORY", TABLE_PREFIX . "email_history");
+define("UNSUBSCRIBE", TABLE_PREFIX . "unsubscribe");
+define("PROJECT", TABLE_PREFIX . "project");
+define("LOGIN_HISTORY", TABLE_PREFIX . "login_history");
+define("LANGUAGE", TABLE_PREFIX . "language");
+define("SMS_HISTORY", TABLE_PREFIX . "sms_history");
+define("CONTENT", TABLE_PREFIX . "content");
+define("CONTENT_TYPE", TABLE_PREFIX . "content_type");
+define("SLIDER", TABLE_PREFIX . "slider");
+define("SLIDER_CONTENT", TABLE_PREFIX . "slider_content");
+define("CONTACT", TABLE_PREFIX . "contact");
+define("CATEGORY", TABLE_PREFIX . "category");
+define("CATEGORY_CRITERIA", TABLE_PREFIX . "category_criteria");
+define("SESSION", TABLE_PREFIX . "session");
+define("CITY", TABLE_PREFIX . "city");
+define("WHISHLIST", TABLE_PREFIX ."wishlist");
+define("WISHLIST", TABLE_PREFIX . "wishlist");
+define("TRANSECTION", TABLE_PREFIX . "transaction");
+define("NOTIFICATION_HISTORY", TABLE_PREFIX . "notification_history");
+define("USER_POSITION", TABLE_PREFIX . "user_position");
+define("COMMENT", TABLE_PREFIX . "comment");
+define("LIKE_UNLIKE", TABLE_PREFIX . "comment_like_unlike");
+define("GALLERY", TABLE_PREFIX . "gallery");
+define("NEWS", TABLE_PREFIX . "news");
+define("SUBSCRIBER", TABLE_PREFIX . "subscriber");
+define("CAREER", TABLE_PREFIX . "career");
+define("FOOD", TABLE_PREFIX . "food");
+
+define("PRODUCT_CATEGORY", TABLE_PREFIX . "product_category");
+define("MY_CART", TABLE_PREFIX . "my_cart");
+
+define("PRODUCT_REPURCHASE", TABLE_PREFIX . "product_repurchase");
+define("PRODUCT_JOINING", TABLE_PREFIX . "product_joining");
+define("BLOG", TABLE_PREFIX . "blog");
+define("ALBEM", TABLE_PREFIX . "albem");
+define("JOIN_FRIEND", TABLE_PREFIX . "join_friend");
+define("MESSAGE", TABLE_PREFIX . "message");
+define("PRODUCT", TABLE_PREFIX . "product");
+define("PRODUCT_CRITERIA", TABLE_PREFIX . "product");
+define("RATING", TABLE_PREFIX . "rating");
+define("LIKE_UNLIKE", TABLE_PREFIX . "like_unlike");
+define("PRODUCT_CLASSIFIED", TABLE_PREFIX . "product_classified");
+
+define("ADDRESS",TABLE_PREFIX."address_tb");
+define("ORDER",TABLE_PREFIX."orders");
+define("ORDERDETAIL",TABLE_PREFIX."orderdetail");
+define("USER",TABLE_PREFIX."user");
+define("WELCOME_MSG",TABLE_PREFIX."autopool");
+define("AUTO_POOL",TABLE_PREFIX."autopool");
+define("AUTO_POOL_FEE_DETAIL",TABLE_PREFIX."autopool_fee_detail");
+define("CHECK_PACKAGE",TABLE_PREFIX."check_package");
+define("TEMP_USER",TABLE_PREFIX."temp_user");
+define("PV_RANGE",TABLE_PREFIX."pv_range");
+define("REPLY",TABLE_PREFIX."reply");
+define("EXPENCE",TABLE_PREFIX."expence");
+define("CLIENT_ORDER",TABLE_PREFIX."client_order")
+define("PRODUCT",TABLE_PREFIX."product");
+define("CLIENT",TABLE_PREFIX."client");
+?>
